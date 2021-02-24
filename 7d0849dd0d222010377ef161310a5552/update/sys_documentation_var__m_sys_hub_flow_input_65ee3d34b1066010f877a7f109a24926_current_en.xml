@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="current" label="Record" language="en" table="var__m_sys_hub_flow_input_610809dd98222010cd97f7041fd8f7d8">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>current</element>
+            <help/>
+            <hint/>
+            <label>Record</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_610809dd98222010cd97f7041fd8f7d8</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id>6d0849dd5522201093598bf482e12726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Record</sys_name>
+            <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_65ee3d34b1066010f877a7f109a24926_current_en</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="610809ddb22220105e67ec6c741104f2" sys_domain="global" table="x_snc_lastship_inventory_control" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e10809ddd322201016d0a074996b70f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_lastship_inventory_control" name="x_snc_lastship_inventory_control" sys_domain="global" view="a10809dd592220100eba465d444b6ff2">610809ddb22220105e67ec6c741104f2</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_inventory_control" sys_domain="global" view="a10809dd592220100eba465d444b6ff2">250809ddf12220100fd33a115c915df2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>650809ddc722201096d838a859f592f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_lastship_inventory_control" name="x_snc_lastship_inventory_control" sys_domain="global" view="a10809dd592220100eba465d444b6ff2">610809ddb22220105e67ec6c741104f2</sys_ui_form>
+            <sys_ui_section caption="Item  Details" display_value="Item  Details" name="x_snc_lastship_inventory_control" sys_domain="global" view="a10809dd592220100eba465d444b6ff2">a50809ddb3222010c7fc1f069aafdaf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_lastship_inventory_control</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>610809ddb22220105e67ec6c741104f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_lastship_inventory_control</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+            <sys_update_name>sys_ui_form_sections_610809ddb22220105e67ec6c741104f2</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Portal (x_snc_lastship )" name="Portal_x_snc_lastship">a10809dd592220100eba465d444b6ff2</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

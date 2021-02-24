@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Inventory Request" section_id="e50809dd1e2220104d33b3256f7a16f3" sys_domain="global" table="x_snc_lastship_inventory_request" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_item</element>
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>a90809dd5e222010604fad37a8f02bfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>2d0809dde322201063be4c1676c0d5fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>6d0809ddaa222010fd17e4e5057d11fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>ad0809dd27222010c0829c2ea1fbe1fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>count</element>
+            <position>4</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>ed0809dd4622201012e145c8d9b947fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>210809dd492220106517ef28a7258efe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>610809dd7d2220106329c44657780bfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requestor</element>
+            <position>7</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>a10809dd0c22201012bd7bdfe923aefe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>e10809ddd6222010ac67c27dbcf251fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>9</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>250809dd602220109b69a8d8f54f59fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>650809ddcf2220109c9f72df959933fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stock_location</element>
+            <position>11</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>e50809dd7122201026e94b560813edfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>12</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>290809ddd12220105ca311331f3fdefe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_date</element>
+            <position>13</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>690809dddb22201010d078760fee32fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_snc_lastship_inventory_request.REL:b9edf0ca0a0a0b010035de2d6b579a03</element>
+            <position>14</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>a90809ddd32220104186f2a0e051dbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>e90809ddd6222010353e6907727375fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>return_date</element>
+            <position>16</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_id>2d0809dd4d2220105e01b3910a0297fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Request" display_value="Inventory Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e50809dd1e2220104d33b3256f7a16f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Inventory Request</caption>
+            <header>false</header>
+            <name>x_snc_lastship_inventory_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e50809dd1e2220104d33b3256f7a16f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_lastship_inventory_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+            <sys_update_name>sys_ui_section_e50809dd1e2220104d33b3256f7a16f3</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">f8d33ba4182620101d9a95642a45d607</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

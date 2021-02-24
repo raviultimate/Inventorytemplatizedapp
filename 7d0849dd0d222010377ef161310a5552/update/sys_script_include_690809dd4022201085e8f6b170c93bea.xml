@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_lastship.request_stock_loc</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Given an item, returns its stock location.</description>
+        <name>request_stock_loc</name>
+        <script><![CDATA[var request_stock_loc = Class.create();
+request_stock_loc.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	request_info: function(){
+		var result = {};
+		var gr = new GlideRecord('x_snc_lastship_inventory_control');
+		if(gr)gs.info('open x_snc_lastship_inventory_control');
+		if(gr.get(this.getParameter('sysparm_itemSelect'))){
+			result.location = gr.getValue('stock_location');
+		}
+		return JSON.stringify(result);		
+	},
+
+    type: 'request_stock_loc'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:29</sys_created_on>
+        <sys_id>690809dd4022201085e8f6b170c93bea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request_stock_loc</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_script_include_690809dd4022201085e8f6b170c93bea</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-trackapptemplates-12-11-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_snc_lastship.overdue__employee</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Inventory Request Record","reference":"x_snc_lastship_inventory_request","reference_display":"Inventory Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <latest_snapshot>a10809ddf2222010f5b99154ce902ade</latest_snapshot>
+        <master_snapshot>250809dd212220103e2a8b03ca6e92de</master_snapshot>
+        <name>Request Cancelled - Manager</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>650809dd0922201090fab56d25f955de</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e10809ddf8222010e9ec31727643bdde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Cancelled - Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_hub_flow_e10809ddf8222010e9ec31727643bdde</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e10809ddf8222010e9ec31727643bdde"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e10809ddf8222010e9ec31727643bdde"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_lastship_inventory_request">request_statusCHANGESTOcancel<item display_value="Cancel" endquery="false" field="request_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="cancel"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>650809dd0922201090fab56d25f955de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table>x_snc_lastship_inventory_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"a50809ddfa2220101cde546c1838b0de","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>e10809ddf8222010e9ec31727643bdde</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>a50809ddfa2220101cde546c1838b0de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <trigger display_value="">650809dd0922201090fab56d25f955de</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>a50809ddfa2220101cde546c1838b0de</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>e50809dd09222010e04e433b76c7c5de</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e10809ddf8222010e9ec31727643bdde^sys_idNOT INa50809ddfa2220101cde546c1838b0de"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e10809ddf8222010e9ec31727643bdde^sys_idNOT IN290809dd3f2220108c717dee4c65a3de"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Cancelled - Manager">e10809ddf8222010e9ec31727643bdde</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>290809dd3f2220108c717dee4c65a3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=290809dd3f2220108c717dee4c65a3de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>290809dd3f2220108c717dee4c65a3de</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>2d0809dd03222010fba0999127aec7de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>290809dd3f2220108c717dee4c65a3de</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>690809ddd9222010916d354d6b7adfde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>x_snc_lastship_inventory_request</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>290809dd3f2220108c717dee4c65a3de</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>6d0809dd3f22201053d287203902b9de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>request_statusCHANGESTOcancel</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>290809dd3f2220108c717dee4c65a3de</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>a90809dd9122201020a41c20423c3ede</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">231e76460f103300b599bca2ff767e11</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e10809ddf8222010e9ec31727643bdde^sys_idNOT INad0809dda8222010a8d033a5eb803bde"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e10809ddf8222010e9ec31727643bdde</id>
+        <name>Overdue - Employee</name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>ad0809dda8222010a8d033a5eb803bde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=e10809ddf8222010e9ec31727643bdde^sys_idNOT IN210809dd2022201003305aa4cc41a7df,610809dd7f2220105c0c177833b64bdf,ed0809dd1f22201006d6821fb6647fde"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Cancelled - Manager">e10809ddf8222010e9ec31727643bdde</model>
+        <model_id>e10809ddf8222010e9ec31727643bdde</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e10809ddf8222010e9ec31727643bdde</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>210809dd2022201003305aa4cc41a7df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Cancelled - Manager">e10809ddf8222010e9ec31727643bdde</model>
+        <model_id>e10809ddf8222010e9ec31727643bdde</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e10809ddf8222010e9ec31727643bdde</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>610809dd7f2220105c0c177833b64bdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD99b316b4c74660102440c056e22c5fd6,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Request Cancelled - Manager">e10809ddf8222010e9ec31727643bdde</model>
+        <model_id>e10809ddf8222010e9ec31727643bdde</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e10809ddf8222010e9ec31727643bdde</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>ed0809dd1f22201006d6821fb6647fde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e10809ddf8222010e9ec31727643bdde^sys_idNOT INa10809dd31222010fb9644027d2a00df"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Request Cancelled - Manager">e10809ddf8222010e9ec31727643bdde</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>a10809dd31222010fb9644027d2a00df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <ui_id>9401edc7-f702-4473-9b75-fc51980d88cd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a10809dd31222010fb9644027d2a00df"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a10809dd31222010fb9644027d2a00df</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>250809dd4d22201048c55af0fa64abdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>x_snc_lastship_inventory_request</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a10809dd31222010fb9644027d2a00df</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>e10809dd2b22201021a7b407995812df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>610809dd7e222010dcb8aeb69f77a2d2</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a10809dd31222010fb9644027d2a00df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a10809dd31222010fb9644027d2a00df</id>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>650809dd62222010231f8edf83761ddf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e10809ddf8222010e9ec31727643bdde^sys_idNOT IN6d0849ddff22201070d08ce84f6b602d,e50849dd332220100a0173840e52ab24"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e10809ddf8222010e9ec31727643bdde</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>6d0849ddff22201070d08ce84f6b602d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bf821e34b1466010f877a7f109a24978_table_name_en</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e10809ddf8222010e9ec31727643bdde</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>e50849dd332220100a0173840e52ab24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bf821e34b1466010f877a7f109a24978_changed_fields_en</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e10809ddf8222010e9ec31727643bdde^sys_idNOT INe50809dd6e2220103535eb9781cc49df"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d1b316b4b1466010f877a7f109a249cf","name":"plan"}}</plan>
+        <plan_id>e10809ddf8222010e9ec31727643bdde</plan_id>
+        <snapshot>a10809ddf2222010f5b99154ce902ade</snapshot>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e50809dd6e2220103535eb9781cc49df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <trigger display_value="">650809dd0922201090fab56d25f955de</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_snc_lastship.request_cancelled__manage</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Inventory Request Record","reference":"x_snc_lastship_inventory_request","reference_display":"Inventory Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Request Cancelled - Manager</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Request Cancelled - Manager">e10809ddf8222010e9ec31727643bdde</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>250809dd212220103e2a8b03ca6e92de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=250809dd212220103e2a8b03ca6e92de"/>
+    <sys_variable_value action="delete_multiple" query="document_key=250809dd212220103e2a8b03ca6e92de"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=250809dd212220103e2a8b03ca6e92de^sys_idNOT IN290809dd442220102264f3aecdc04cdf"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Cancelled - Manager">250809dd212220103e2a8b03ca6e92de</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>290809dd442220102264f3aecdc04cdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=290809dd442220102264f3aecdc04cdf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>290809dd442220102264f3aecdc04cdf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>2d0809ddc4222010273cc105013412df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">231e76460f103300b599bca2ff767e11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>290809dd442220102264f3aecdc04cdf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>690809dd322220103e2738476f97c7df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>request_statusCHANGESTOcancel</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>290809dd442220102264f3aecdc04cdf</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>a90809dd872220105d5d3ea0f32483df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>290809dd442220102264f3aecdc04cdf</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>e90809ddb7222010d879b26166c08ddf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>x_snc_lastship_inventory_request</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=250809dd212220103e2a8b03ca6e92de^sys_idNOT IN6d0809ddbf22201004e4bed6bca4b3df"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>250809dd212220103e2a8b03ca6e92de</id>
+        <name>Request Cancelled - Manager</name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>6d0809ddbf22201004e4bed6bca4b3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=250809dd212220103e2a8b03ca6e92de^sys_idNOT IN610809dd5e2220102bfd8c0ec74b59e0,ad0809dd5022201068c60ca9217f03df,ed0809dd562220108293932ca15247df"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Cancelled - Manager">250809dd212220103e2a8b03ca6e92de</model>
+        <model_id>250809dd212220103e2a8b03ca6e92de</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_250809dd212220103e2a8b03ca6e92de</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>610809dd5e2220102bfd8c0ec74b59e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD01b316b402466010f15f34c5e912125e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Request Cancelled - Manager">250809dd212220103e2a8b03ca6e92de</model>
+        <model_id>250809dd212220103e2a8b03ca6e92de</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_250809dd212220103e2a8b03ca6e92de</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>ad0809dd5022201068c60ca9217f03df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Cancelled - Manager">250809dd212220103e2a8b03ca6e92de</model>
+        <model_id>250809dd212220103e2a8b03ca6e92de</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_250809dd212220103e2a8b03ca6e92de</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>ed0809dd562220108293932ca15247df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=250809dd212220103e2a8b03ca6e92de^sys_idNOT INa10809dd89222010589addf6b9f88ce0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Request Cancelled - Manager">250809dd212220103e2a8b03ca6e92de</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>a10809dd89222010589addf6b9f88ce0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <ui_id>9401edc7-f702-4473-9b75-fc51980d88cd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a10809dd89222010589addf6b9f88ce0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a10809dd89222010589addf6b9f88ce0</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>250809dd6f222010acaaf38561fb2fe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>610809dd7e222010dcb8aeb69f77a2d2</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a10809dd89222010589addf6b9f88ce0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>e10809dd22222010a8e7f8e6dbcd0fe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <value>x_snc_lastship_inventory_request</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a10809dd89222010589addf6b9f88ce0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a10809dd89222010589addf6b9f88ce0</id>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:21</sys_created_on>
+        <sys_id>650809dde6222010f97d2c73e8b661e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_250809dd212220103e2a8b03ca6e92de^sys_idNOT IN650849dd9f2220106f11a813e504f72d,6d0849dd69222010b08a9ebc36443125,a50849dd6a2220104bae7bec8ab3e129"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_250809dd212220103e2a8b03ca6e92de</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>650849dd9f2220106f11a813e504f72d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4db316b4b1466010f877a7f109a2495c_table_name_en</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_250809dd212220103e2a8b03ca6e92de</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>6d0849dd69222010b08a9ebc36443125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4db316b4b1466010f877a7f109a2495c_current_en</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_250809dd212220103e2a8b03ca6e92de</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a50849dd6a2220104bae7bec8ab3e129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4db316b4b1466010f877a7f109a2495c_changed_fields_en</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

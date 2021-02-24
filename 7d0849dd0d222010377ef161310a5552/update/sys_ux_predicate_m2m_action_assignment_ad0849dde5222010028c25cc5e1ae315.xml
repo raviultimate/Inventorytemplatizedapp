@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</declarative_action_assignment>
+        <predicate display_value="Stock Location">e10849ddee222010c24e31f66c487210</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+        <sys_id>ad0849dde5222010028c25cc5e1ae315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_ad0849dde5222010028c25cc5e1ae315</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

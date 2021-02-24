@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e10809dd8a222010dd2a3022e3a7c7ff" sys_domain="global" table="x_snc_lastship_stock_location" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_id>250809dd32222010af447120990164ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_stock_location" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e10809dd8a222010dd2a3022e3a7c7ff</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address</element>
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_id>650809dd72222010294245ec11d70dff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_stock_location" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e10809dd8a222010dd2a3022e3a7c7ff</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_id>a50809dd91222010595924052a9d40ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_stock_location" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e10809dd8a222010dd2a3022e3a7c7ff</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_id>e50809dde822201074e5fdd7c53a63ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_stock_location" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e10809dd8a222010dd2a3022e3a7c7ff</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>4</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_id>290809dd0c2220100cd29141594f79ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_stock_location" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e10809dd8a222010dd2a3022e3a7c7ff</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>5</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_id>690809dd0e222010b6267510ef352cff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_stock_location" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e10809dd8a222010dd2a3022e3a7c7ff</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_id>a90809ddc622201078021ff9ee8bf2ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_stock_location" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e10809dd8a222010dd2a3022e3a7c7ff</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inventory_manager</element>
+            <position>7</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_id>e90809dd2f2220109a8b3b0cc7652cff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_lastship_stock_location" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">e10809dd8a222010dd2a3022e3a7c7ff</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_lastship_stock_location</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e10809dd8a222010dd2a3022e3a7c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_lastship_stock_location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+            <sys_update_name>sys_ui_section_e10809dd8a222010dd2a3022e3a7c7ff</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">f8d33ba4182620101d9a95642a45d607</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

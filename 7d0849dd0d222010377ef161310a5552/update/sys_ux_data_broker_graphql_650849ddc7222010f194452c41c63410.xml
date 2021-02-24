@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_graphql">
+    <sys_ux_data_broker_graphql action="INSERT_OR_UPDATE">
+        <api_name>x_snc_lastship.Popular Items</api_name>
+        <description>Retrives the most requested items for a given department</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Popular Items</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{&#13;
+  "name": "department",&#13;
+  "label": "Department",&#13;
+  "description": "ID of department",&#13;
+"readOnly": false,&#13;
+"fieldType": "reference",&#13;
+  "mandatory": true,&#13;
+  "typeMetadata": {&#13;
+      "reference": "cmn_department"&#13;
+    }&#13;
+}]</props>
+        <query/>
+        <required_translations>[{"message":"Department","comment":""},{"message":"ID of department","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[(function buildQuery(query, inputs) {
+    var Query =
+        "{\r\n" +
+        "  GlideAggregateRecord_Query(tableName: \"x_snc_lastship_inventory_request\", queryConditions:\"department=" + inputs.department + "\",groupBy: \"requested_item\", orderBy:\"COUNT^DESC\") {\r\n" +
+        "                 aggregates{\r\n" +
+        "                  count\r\n" +
+        "                  groupBy{\r\n" +
+        "                    field\r\n" +
+        "                    value\r\n" +
+        "                    displayValue\r\n" +
+        "                    _query{\r\n" +
+        "                         GlideRecord_Query{\r\n" +
+        "                                          x_snc_lastship_inventory_control(sys_id:\"$$parent.value$$\"){\r\n" +
+        "                                                           _results{\r\n" +
+        "                                                                   name{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                                   type{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                                   image{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                                   in_stock{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                                   stock_location{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                            }\r\n" +
+        "                                          }\r\n" +
+        "                         }\r\n" +
+        "                    }\r\n" +
+        "                  }\r\n" +
+        "                 }\r\n" +
+        "           }\r\n" +
+        "}";
+    query.append(Query);
+})(query, inputs);]]></script>
+        <sys_class_name>sys_ux_data_broker_graphql</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:52</sys_created_on>
+        <sys_id>650849ddc7222010f194452c41c63410</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular Items</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_data_broker_graphql_650849ddc7222010f194452c41c63410</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:52</sys_updated_on>
+        <type>script</type>
+    </sys_ux_data_broker_graphql>
+    <sys_translated_text action="delete_multiple" query="documentkey=650849ddc7222010f194452c41c63410"/>
+</record_update>

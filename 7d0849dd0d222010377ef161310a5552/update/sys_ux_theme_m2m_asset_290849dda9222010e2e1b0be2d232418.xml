@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset">
+    <sys_ux_theme_m2m_asset action="INSERT_OR_UPDATE">
+        <asset display_value="Roboto">ed0849dd23222010f11a41d1de7b6716</asset>
+        <properties>{&#13;
+    "font-weight": "400",&#13;
+    "font-style": "normal"&#13;
+}</properties>
+        <sys_class_name>sys_ux_theme_m2m_asset</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>290849dda9222010e2e1b0be2d232418</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_theme_m2m_asset_290849dda9222010e2e1b0be2d232418</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:12</sys_updated_on>
+        <theme display_value="Inventory Tracker Portal Theme">e50849ddba222010e6efb63915036531</theme>
+    </sys_ux_theme_m2m_asset>
+</record_update>

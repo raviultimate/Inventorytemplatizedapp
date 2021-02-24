@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Inventory Information" section_id="2d0809dd02222010e39f648a66222cf2" sys_domain="global" table="x_snc_lastship_inventory_control" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_cost</element>
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>6d0849dddb2220100e80887ab0522500</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>ad0849dd7e2220101e41157a7b738f00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>ed0849dd7522201085d676e788e0c400</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>210849ddcd222010d33fa9e13b9c3e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>610849dd79222010bd29037637427b01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>in_stock</element>
+            <position>5</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>e10849ddf4222010410e8d04e9e53e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>250849ddaa222010b697832d33e41a01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stock_location</element>
+            <position>7</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>650849dd6c2220102f0c591958131601</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>a50849dde722201081de7fe2e66b1901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>e50849dd6d2220100a67bd6df0782001</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reorder_level</element>
+            <position>10</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>290849dd1c22201042f81bcc616c6601</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>690849dd1e222010d87ef55d41797d01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inventory_status</element>
+            <position>12</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>a90849ddf2222010c96ccb1745bf0501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>e90849ddcd22201056f6619e1cc33301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>14</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>2d0849dd01222010fc7dda324b9f0c01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reorder_status</element>
+            <position>15</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>ad0849dd62222010744b857752df6601</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loan_duration</element>
+            <position>16</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>ed0849dd86222010acc523490887bf01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>210849dd3d2220104dac3d0ec4a45302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>on_loan</element>
+            <position>18</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>610849dd062220101f311c7a29dca402</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_id>a10849dd5b222010187d3730c299a502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory Information" display_value="Inventory Information" name="x_snc_lastship_inventory_control" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">2d0809dd02222010e39f648a66222cf2</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Inventory Information</caption>
+            <header>false</header>
+            <name>x_snc_lastship_inventory_control</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d0809dd02222010e39f648a66222cf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_lastship_inventory_control</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+            <sys_update_name>sys_ui_section_2d0809dd02222010e39f648a66222cf2</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">f8d33ba4182620101d9a95642a45d607</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

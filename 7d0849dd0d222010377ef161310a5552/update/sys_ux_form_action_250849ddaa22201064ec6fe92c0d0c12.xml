@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Approve Request</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:41</sys_created_on>
+        <sys_id>250849ddaa22201064ec6fe92c0d0c12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve Request</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_form_action_250849ddaa22201064ec6fe92c0d0c12</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:41</sys_updated_on>
+        <table>x_snc_lastship_inventory_request</table>
+        <ui_action display_value="Approve">650809dd1122201022c3f39f2e112cf1</ui_action>
+    </sys_ux_form_action>
+</record_update>

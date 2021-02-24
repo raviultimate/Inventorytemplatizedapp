@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_lastship_inventory_request" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>210809dd4a222010b4bed050f85cc8f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comments</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>610809dd0f222010f4755982fd52c9f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>count</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>a10809dd7122201092d33147b38aeef7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>department</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>e10809dd0c222010ac675b0d5fd154f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>on_loan_item</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>250809dd26222010cfc8b942f5bf24f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_date</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>650809ddaf222010add395d73df9fef7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_status</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>a50809dd4c222010353597a0d1ce83f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requested_item</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>290809dd982220108f543c8bbfe43cf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requestor</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>690809dd692220109acd2411bc4ffcf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>return_date</element>
+            <list_id display_value="x_snc_lastship_inventory_request" element="NULL" name="x_snc_lastship_inventory_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ed0809dd47222010b7794c2c4d3156f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_id>a90809dd1c222010bf72ec1b5fc021f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_lastship_inventory_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed0809dd47222010b7794c2c4d3156f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_lastship_inventory_request</sys_name>
+            <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_lastship_inventory_request_null</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

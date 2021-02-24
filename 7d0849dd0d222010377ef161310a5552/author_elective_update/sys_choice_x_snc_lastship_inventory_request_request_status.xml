@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="request_status" table="x_snc_lastship_inventory_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>request_status</element>
+            <name>x_snc_lastship_inventory_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id>256809114d622010f877b081eb724875</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>request_status</sys_name>
+            <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+            <sys_update_name>sys_choice_x_snc_lastship_inventory_request_request_status</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_snc_lastship_inventory_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>690809dd0022201021c9c308d834eff2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:27</sys_updated_on>
+            <value>submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denied</label>
+            <language>en</language>
+            <name>x_snc_lastship_inventory_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>250809dd75222010670641ede26b89f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:27</sys_updated_on>
+            <value>denied</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_snc_lastship_inventory_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed0809ddbb222010addf7372ae3ca9f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:27</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Re-order</label>
+            <language>en</language>
+            <name>x_snc_lastship_inventory_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e90809ddfc222010601e73025555a9f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:27</sys_updated_on>
+            <value>pending_re_order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open Loaner</label>
+            <language>en</language>
+            <name>x_snc_lastship_inventory_request</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a50809dd302220104b97946b3f030ef5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:27</sys_updated_on>
+            <value>open_loaner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complete</label>
+            <language>en</language>
+            <name>x_snc_lastship_inventory_request</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>610809dd532220100b3c3d3fed49a2f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:27</sys_updated_on>
+            <value>complete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancel</label>
+            <language>en</language>
+            <name>x_snc_lastship_inventory_request</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d0809ddc8222010b71b27854c2991f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:26:27</sys_updated_on>
+            <value>cancel</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

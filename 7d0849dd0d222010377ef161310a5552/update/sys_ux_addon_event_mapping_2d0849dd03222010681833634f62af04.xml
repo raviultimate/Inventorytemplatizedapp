@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Deny Request</name>
+        <parent_macroponent display_value="Record">ad0849dd802220103c78e29e38411003</parent_macroponent>
+        <source_da display_value="deny_request">e90849dd42222010dddcdcb9d005021d</source_da>
+        <source_element_id>ui_action_bar</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d0849dd03222010681833634f62af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deny Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_2d0849dd03222010681833634f62af04</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:06</sys_updated_on>
+        <target_event display_value="Deny Request">6d0849dd692220102596b0a6ccb4f404</target_event>
+        <target_payload_mapping/>
+    </sys_ux_addon_event_mapping>
+</record_update>

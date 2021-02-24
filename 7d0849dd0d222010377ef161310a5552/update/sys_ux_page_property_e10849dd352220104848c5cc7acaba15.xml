@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>highlightedValueConfigId</name>
+        <page display_value="Inventory Tracker Workspace App Config">e50849ddff222010615969931cf59914</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>e10849dd352220104848c5cc7acaba15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>highlightedValueConfigId</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_page_property_e10849dd352220104848c5cc7acaba15</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:59</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_lastship.e50849ddff222010615969931cf59914.root.highlightedValueConfigId</unique_name>
+        <value>ad0849dda32220100fa5774d7deef012</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=e10849dd352220104848c5cc7acaba15"/>
+</record_update>

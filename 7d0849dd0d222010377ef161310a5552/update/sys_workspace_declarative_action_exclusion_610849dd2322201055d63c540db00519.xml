@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
+    <sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE">
+        <action_assignment display_value="create-new-uxf">17c13e7273131010a0a79329faf6a794</action_assignment>
+        <exclude_all_child_tables>false</exclude_all_child_tables>
+        <exclude_self>true</exclude_self>
+        <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:04</sys_created_on>
+        <sys_id>610849dd2322201055d63c540db00519</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_lastship_inventory_control</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_610849dd2322201055d63c540db00519</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:04</sys_updated_on>
+        <table>x_snc_lastship_inventory_control</table>
+    </sys_workspace_declarative_action_exclusion>
+</record_update>

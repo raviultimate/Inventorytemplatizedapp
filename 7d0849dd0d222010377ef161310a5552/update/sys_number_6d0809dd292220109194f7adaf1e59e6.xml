@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_lastship_inventory_request">x_snc_lastship_inventory_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ITR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:07</sys_created_on>
+        <sys_id>6d0809dd292220109194f7adaf1e59e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITR</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_number_6d0809dd292220109194f7adaf1e59e6</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:07</sys_updated_on>
+    </sys_number>
+</record_update>

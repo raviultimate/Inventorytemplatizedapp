@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>requested_item</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:10</sys_created_on>
+        <sys_id>290809dd582220100f2c0941f0e0e4f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>requested_item</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ui_policy_action_290809dd582220100f2c0941f0e0e4f8</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:10</sys_updated_on>
+        <table>x_snc_lastship_inventory_request</table>
+        <ui_policy display_value="Make location readonly &amp; hide unnecessary fields">250809ddf5222010bb24d6d8121345f8</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

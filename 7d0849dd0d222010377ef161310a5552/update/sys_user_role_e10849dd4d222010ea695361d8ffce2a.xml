@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Inventory Managers can create new inventory items manually or via spreadsheet upload, Can create/update information about an item, discontinue item, be notified when an item needs to be re-ordered or is passed the return date.</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_lastship.inventory_manager</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>inventory_manager</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:42</sys_created_on>
+        <sys_id>e10849dd4d222010ea695361d8ffce2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_lastship.inventory_manager</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_user_role_e10849dd4d222010ea695361d8ffce2a</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:42</sys_updated_on>
+    </sys_user_role>
+</record_update>

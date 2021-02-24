@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="My Inventory">210849ddf42220107fd1e76ce8fff013</category>
+        <columns>name,manufacturer,item_number,type,inventory_status,item_cost,in_stock,on_loan,stock_location</columns>
+        <condition table="x_snc_lastship_inventory_control">reorder_status=on_order^EQ<item display_value="On Order" endquery="false" field="reorder_status" goto="false" newquery="false" operator="=" or="false" value="on_order"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="Inventory Tracker Workspace Menu">ed0849dd672220102d2b2f2a0de7cf12</configuration>
+        <groups/>
+        <list_attributes/>
+        <order>300</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d0849dd9d222010925eb1b742f34006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On order</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_list_6d0849dd9d222010925eb1b742f34006</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:48</sys_updated_on>
+        <table>x_snc_lastship_inventory_control</table>
+        <title>On order</title>
+    </sys_ux_list>
+</record_update>

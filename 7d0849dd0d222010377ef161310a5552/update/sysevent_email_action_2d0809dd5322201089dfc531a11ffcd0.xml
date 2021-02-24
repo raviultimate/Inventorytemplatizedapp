@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="210849dd4d222010f877b081eb724852" name="210849dd4d222010f877b081eb724852">e50849ddf522201080b8b9140e286c41</category>
+        <collection>x_snc_lastship_inventory_request</collection>
+        <condition table="x_snc_lastship_inventory_request">request_statusCHANGESTOapproved^EQ<item display_value="Approved" endquery="false" field="request_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="approved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html><![CDATA[<p style="text-align: center;"><span style="font-size: 14pt;"><span style="font-size: 10pt;">${mail_script:x_snc_lastship.invtrac_critical_img}</span></span></p>
+<p style="text-align: center;"><strong>${requested_item.stock_location.inventory_manager.name} </strong>denied an item request (${mail_script:x_snc_lastship.invtrac_requestlink_mgr})</p>
+<p style="text-align: center;"><strong>Item Requested</strong> <br /></p>
+<p style="text-align: center;">${requested_item.name} <br /></p>]]></digest_html>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject>Denied: Request {number}</digest_subject>
+        <digest_template display_value="Inventory Tracker - Notifications">a10849dd18222010a803877030271640</digest_template>
+        <digest_text/>
+        <digestable>true</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="text-align: center;"><span style="font-size: 14pt;"><span style="font-size: 10pt;">${mail_script:x_snc_lastship.invtrac_critical_img}</span></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><strong>${requested_item.stock_location.inventory_manager.name} </strong>denied an item request (${mail_script:x_snc_lastship.invtrac_requestlink_emp})</span></p>
+<p style="text-align: center;"><strong>Item Requested:</strong> <br /></p>
+<p style="text-align: center;">${requested_item.name} <br /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Request Denied - Employee</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>requestor</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Request Denied: ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d0809dd5322201089dfc531a11ffcd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Denied - Employee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sysevent_email_action_2d0809dd5322201089dfc531a11ffcd0</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:51</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Inventory Tracker - Notifications">a10849dd18222010a803877030271640</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

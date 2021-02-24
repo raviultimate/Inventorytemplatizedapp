@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Deny Request</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:12</sys_created_on>
+        <sys_id>a50849ddc92220105e0687723d1edb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deny Request</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_form_action_a50849ddc92220105e0687723d1edb12</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:12</sys_updated_on>
+        <table>x_snc_lastship_inventory_request</table>
+        <ui_action display_value="Deny">ed0809dd462220106ecdf9cc9fda22f0</ui_action>
+    </sys_ux_form_action>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:26:07</sys_created_on>
+        <sys_id>6d0809dd47222010d14b776bbef9bbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deny.</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_ui_action display_value="Deny">ed0809dd462220106ecdf9cc9fda22f0</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_6d0809dd47222010d14b776bbef9bbf1</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:26:07</sys_updated_on>
+        <sys_user_role display_value="x_snc_lastship.inventory_manager" name="x_snc_lastship.inventory_manager">e10849dd4d222010ea695361d8ffce2a</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

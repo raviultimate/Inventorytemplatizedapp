@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Manage Request" section_id="690809dd1222201004cd07c0286ff2f3" sys_domain="global" table="x_snc_lastship_inventory_request" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_status</element>
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:45</sys_created_on>
+            <sys_id>e10849dd8e22201073527d86cda94e02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manage Request" display_value="Manage Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">690809dd1222201004cd07c0286ff2f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>on_loan_item</element>
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:45</sys_created_on>
+            <sys_id>250849ddb5222010b93bcc10027ba402</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manage Request" display_value="Manage Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">690809dd1222201004cd07c0286ff2f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:45</sys_created_on>
+            <sys_id>650849dda622201098669a7d9db68502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manage Request" display_value="Manage Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">690809dd1222201004cd07c0286ff2f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>3</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:45</sys_created_on>
+            <sys_id>a50849dd052220100b525bdc62dd5b02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manage Request" display_value="Manage Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">690809dd1222201004cd07c0286ff2f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>4</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:45</sys_created_on>
+            <sys_id>e50849dd5f2220105130cab620585702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">e90809dd4c222010e634a88912dbc4fb</sys_ui_formatter>
+            <sys_ui_section caption="Manage Request" display_value="Manage Request" name="x_snc_lastship_inventory_request" sys_domain="global" view="f8d33ba4182620101d9a95642a45d607">690809dd1222201004cd07c0286ff2f3</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:45</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Manage Request</caption>
+            <header>false</header>
+            <name>x_snc_lastship_inventory_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-02-24 12:25:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>690809dd1222201004cd07c0286ff2f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_lastship_inventory_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+            <sys_update_name>sys_ui_section_690809dd1222201004cd07c0286ff2f3</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:25:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">f8d33ba4182620101d9a95642a45d607</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_highlighted_value_config">
+    <sys_ux_m2m_highlighted_value_config action="INSERT_OR_UPDATE">
+        <highlighted_value display_value="request_status">250849ddf8222010b27f34ffa2b2892f</highlighted_value>
+        <highlighted_value_config display_value="Inventory Tracker Highlighted Values Config">ad0849dda32220100fa5774d7deef012</highlighted_value_config>
+        <order>0</order>
+        <sys_class_name>sys_ux_m2m_highlighted_value_config</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:42</sys_created_on>
+        <sys_id>ed0849dd80222010e95b7ac22e7bd413</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_m2m_highlighted_value_config_ed0849dd80222010e95b7ac22e7bd413</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:42</sys_updated_on>
+    </sys_ux_m2m_highlighted_value_config>
+</record_update>

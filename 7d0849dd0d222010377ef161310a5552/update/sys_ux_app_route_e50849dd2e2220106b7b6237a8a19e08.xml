@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Inventory Tracker Portal App Config Config">2d0849ddba222010ac92302245d75830</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Custom404</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>custom404</route_type>
+        <screen_type display_value="Custom404">a50849dddd222010e03d893343e1ba08</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:50</sys_created_on>
+        <sys_id>e50849dd2e2220106b7b6237a8a19e08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom404</sys_name>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_app_route_e50849dd2e2220106b7b6237a8a19e08</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:50</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e50849dd2e2220106b7b6237a8a19e08"/>
+</record_update>

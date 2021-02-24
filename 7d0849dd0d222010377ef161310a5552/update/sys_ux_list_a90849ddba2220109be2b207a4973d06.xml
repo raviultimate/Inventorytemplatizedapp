@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Requests">610849dd9822201082fe0e82aee74c13</category>
+        <columns>number,requestor,department,request_status,requested_item,request_date,count,stock_location,requested_item.in_stock</columns>
+        <condition table="x_snc_lastship_inventory_request">stock_location.inventory_manager=javascript:gs.getUserID()^EQ<item endquery="false" field="stock_location.inventory_manager" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="Inventory Tracker Workspace Menu">ed0849dd672220102d2b2f2a0de7cf12</configuration>
+        <groups/>
+        <list_attributes/>
+        <order>400</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 12:25:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a90849ddba2220109be2b207a4973d06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lastship" source="x_snc_lastship">7d0849dd0d222010377ef161310a5552</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lastship">7d0849dd0d222010377ef161310a5552</sys_scope>
+        <sys_update_name>sys_ux_list_a90849ddba2220109be2b207a4973d06</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:25:53</sys_updated_on>
+        <table>x_snc_lastship_inventory_request</table>
+        <title>All</title>
+    </sys_ux_list>
+</record_update>
